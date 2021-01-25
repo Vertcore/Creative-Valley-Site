@@ -1,0 +1,387 @@
+body { 
+    font-family: 'Rubik', sans-serif;
+    background-image: url("img/backgroundreplacement.jpg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    z-index: -2;
+}
+#navbar {
+    background-color: #241e28;
+    position: fixed;
+    z-index: 400;
+    width: 100%;
+    transition: 1s;
+    top: -120px;
+}
+.video {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    z-index: -3;
+}
+.backgroundimg {
+    background-image: url("img/background1.png");
+    width: 100%;
+    z-index: -2;
+}
+.background1 {
+    background-image: url("img/background1.png");
+}
+.headertext {
+    background: linear-gradient(to left, #33dacb 40%, #8c3ef5 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200%;
+    text-align: center;
+}
+.headerlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+a {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 0 !important;
+    font-weight: 400;
+}
+.headercenter {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    display: block;
+}
+.headercentertxt {
+    text-align: center;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    display: block;
+    transition: 0.4s;
+}
+.headercentertxt:hover {
+    text-decoration: none !important;
+    background-image: linear-gradient(to left, #33dacb 40%, #8c3ef5 70%);
+    font-weight: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 6px;
+    font-weight: 600;
+}
+.imgstyle {
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 450px;
+}
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 45px;
+    background-color: #241e28;
+    border-radius: 60px;
+    transition: 0.5s;
+}
+.button:hover {
+    transform: translateY(8px);
+    cursor: pointer;
+}
+.container1 {
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 500px) {
+    .container1 {
+       padding: 120px;
+       padding-top: 170px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .container1 {
+       padding: 120px;
+       padding-top: 340px;
+       clear: both;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .visible1 {
+        display: none;
+    }
+    #navbar {
+        display: none;
+    }
+    #headermobile {
+        display: block;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .visible1 {
+        display: block;
+    }
+    #navbar {
+        display: block;
+    }
+    #headermobile {
+        display: none;
+    }
+}
+.img-fluid {
+    display: block;
+    width: 600px;
+    height: 375px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 120px;
+}
+.container2 {
+    width: 100%;
+    height: auto;
+    background-color: #33dacb;
+    text-align:center;
+}
+b {
+    font-size: 20px;
+    font-weight: 600;
+}
+.container3 {
+    color:  #ffffff;
+    background-color: #372d3d;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: right;
+    margin-top: 180px;
+    padding-left: 130px !important;
+    padding-right: 130px !important;
+
+}
+.container2 {
+    color: #372d3d;
+    background-color: #ffffff;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: right;
+    margin-top: 180px;
+    padding-top: 180px;
+    padding-left: 130px !important;
+    padding-right: 130px !important;
+}
+.container2txt {
+    font-size: 40px;
+    text-align: left;
+    font-weight: 400;
+    text-align: right;
+    padding-bottom: 120px;
+}
+.hypertxtreg {
+    color: #8c3ef5;
+    transition: 0.1s;
+}
+.hypertxtreg:hover {
+    font-weight: 700;
+    text-decoration: none;
+    color: #8c3ef5;
+}
+.hypertxtreg a {
+    text-decoration: none;
+    color: #8c3ef5;
+}
+.headermobilest {
+    width: 100%;
+    height: 130px;
+    background-color: #241e28;
+    position: fixed;
+    z-index: 400;
+}
+.headermobileimg {
+    box-sizing: border-box;
+    padding: 10px;
+}
+#ham1 {
+    clear: both;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    background-color: #241e28;
+    position: fixed;
+    z-index: -2;
+    width: 100%;
+    display: none;
+}
+.hypercss {
+    font-size: 50px;
+    transition: 0.2s;
+}
+.hypercss:hover {
+    background: linear-gradient(to left, #33dacb 40%, #8c3ef5 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    cursor: pointer;
+}
+.discordbutton {
+    width: 300px;
+    height: 75px;
+    background-color: #ffffff;
+    border-radius: 60px;
+    border-style: solid;
+    float: right;
+    border: -50px;
+    border-color: #241e28;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 13px;
+    transition: 0.4s;
+    color: #241e28;
+    font-weight: 500;
+}
+.discordbutton:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    cursor: pointer;
+    background-color: #241e28;
+    color: #ffffff;
+    text-decoration: none;
+}
+.smalltxt {
+    font-size: 17px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    clear: both;
+}
+.alphacontainer4 {
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 180px;
+    padding-bottom: 120px;
+    position: relative;
+    z-index: 200;
+}
+.contentcenter {
+    float: left;
+    background-color: #241e28 !important;
+    width: 100%;
+    min-height: 90px;
+    max-width: 500px;
+    z-index: 200;
+    box-sizing: border-box;
+    margin: 30px;
+    border-radius: 60px;
+    transition: 0.5s;
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 23px;
+}
+.contentcenter:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    text-decoration: none;
+    background-color:  #ffffff !important;
+    color: #241e28 !important;
+    cursor: pointer;
+}
+.txtgrad {
+    background-image: linear-gradient(to left, #33dacb 40%, #8c3ef5 70%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.footer {
+    width: 100%;
+    margin-top: 220px;
+    font-size: 50px;
+    text-align: left;
+    box-sizing: border-box;
+    background-color: #241e28;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footercss {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 60px;
+    transition: 0.1s;
+}
+.footercss a {
+    text-decoration: none;
+}
+.footercss:hover {
+    text-decoration: none;
+    background-image: linear-gradient(to left, #33dacb 40%, #8c3ef5 70%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+    cursor: pointer;
+}
+.footercss2 {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 60px;
+    transition: 0.1s;
+}
+.footercss2:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.copyrightfooter {
+    width: 100%;
+    height: 100px;
+    clear: both;
+    background-color: #181818 !important;
+}
+.txtcopyrightfooter {
+    color: #e7e7e7;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 19px;
+    line-height: 33px;
+}
+.scrollup {
+    height: 50px;
+    width: 120px;
+    text-decoration: none;
+    position: absolute;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 1008;
+    background-color: #ffffff;
+    border-radius: 60px;
+    text-align: center;
+    color: #241e28;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 3px;
+}
+.scrollup:hover {
+    text-decoration: none;
+    color: #241e28;
+    cursor: pointer;
+}
+#simplecookienotification_v01_polityka:hover {
+    color: #ffffff;
+}
